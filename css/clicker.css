@@ -1,0 +1,54 @@
+@import "compass/css3";
+@import url(https://fonts.googleapis.com/css?family=Roboto:300);
+
+html, body { height: 100%; }
+
+body {
+	font-family: "Roboto", sans-serif;
+	font-weight: 300;
+}
+
+.wrapper {
+	display: table;
+	height: 100%;
+	width: 100%;
+	text-align: center;
+	}
+	
+	.inner {
+		vertical-align: middle;
+
+	}
+	
+	.counterTotal {
+		display: block;
+		width: 200px;
+		margin: 0 auto;
+		font-size: 72px;
+		margin-bottom: 20px;
+	}
+
+	.subCounterDiv {
+		display: block;
+		width: 200px;
+		margin: 0 auto;
+		font-size: 52px;
+			}
+
+	.btn {
+		display: block;
+	  	cursor: pointer;
+	  	width: 29px;
+	  	height: 29px;
+	  	float: left;
+		font-size: 52px;
+	}
+	
+	.reset {
+		display: block;
+		width: 200px;
+		margin: 0 auto;
+		font-size: 52px;
+		}
+	
+}
