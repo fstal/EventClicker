@@ -4,7 +4,7 @@
 
 * Fix prompt with user confirmation upon reset
 
-* Limit values > 0
+* Limit values > 0		CHECK
 
 * Fix async with db
 
@@ -13,4 +13,8 @@
 * Decide on update frequency and how to handle "krockar"
 
 * Decide on session management; generate a session link?
+
+* Warning if stu2>stu1 		CHECK
+
+* Add labels				CHECK
 
