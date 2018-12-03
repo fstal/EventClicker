@@ -17,7 +17,6 @@ body {
 	
 	.inner {
 		vertical-align: middle;
-
 	}
 	
 	.counterTotal {
@@ -38,17 +37,25 @@ body {
 	.btn {
 		display: block;
 	  	cursor: pointer;
-	  	width: 29px;
-	  	height: 29px;
-	  	float: left;
 		font-size: 52px;
+    	text-align: center;
+		margin: auto;
+		margin-bottom: 20px;
 	}
 	
 	.reset {
 		display: block;
 		width: 200px;
 		margin: 0 auto;
-		font-size: 52px;
+		font-size: 24px;
 		}
+
+	.warningDiv {
+		display: none;
+	}
+
+	.hlTotal {
+		font-size: 32px;
+	}
 	
 }
