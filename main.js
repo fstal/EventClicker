@@ -48,9 +48,14 @@ $(document).ready(function() {
 	//Decrements values for student1 and student2 depending on studentId, which comes from -this- in the listener
 	function decrement(studentId) {
 		var currentAmount = parseInt($('.counterDiv-Student'+studentId).text());
-		--currentAmount;
-		$('.counterDiv-Student'+studentId).text(currentAmount);
-		updateGlobals(studentId, currentAmount);
+		if(currentAmount > 0) {
+			--currentAmount;
+			$('.counterDiv-Student'+studentId).text(currentAmount);
+			updateGlobals(studentId, currentAmount);
+		}
+		else {
+			//some user feedback that number cant go below 0
+		}
 	}
 
 	//Resets counters
