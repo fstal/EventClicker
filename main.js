@@ -8,6 +8,7 @@ $(document).ready(function() {
 	var counter1 = 0;
 	var counter2 = 0;
 
+
 // LISTENERS
 	
 	//Increment buttons

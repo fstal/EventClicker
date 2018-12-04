@@ -21,15 +21,12 @@ body {
 	
 	.counterTotal {
 		display: block;
-		width: 200px;
 		margin: 0 auto;
 		font-size: 72px;
-		margin-bottom: 20px;
 	}
 
 	.subCounterDiv {
 		display: block;
-		width: 200px;
 		margin: 0 auto;
 		font-size: 52px;
 			}
@@ -40,12 +37,10 @@ body {
 		font-size: 52px;
     	text-align: center;
 		margin: auto;
-		margin-bottom: 20px;
 	}
 	
 	.reset {
 		display: block;
-		width: 200px;
 		margin: 0 auto;
 		font-size: 24px;
 		}
