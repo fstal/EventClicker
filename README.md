@@ -2,14 +2,14 @@
 
 ## ToDO:
 
-* Fix prompt with user confirmation upon reset
+- Fix prompt with user confirmation upon reset
 
-* Fix db connection with upload / sync
+- Fix db connection with upload / sync
 
-* Design
+- Design
 
-* Fix scroll to increment / decrement
-	- * Fix animation to go with it
+- Fix scroll to increment / decrement
+	- Fix animation to go with it
 
 * Fix descriptive comments CHECK
 
@@ -28,4 +28,4 @@
 * How should upload/sync to db work?
 
 * Do we need do be able to handle multiple session simultainiously?
-- * Decide on session management; generate a session link?
+	* Decide on session management; generate a session link?
